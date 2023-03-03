@@ -1,0 +1,133 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: burlywood;
+}
+.a{
+    margin: 20px;
+}
+
+ul{
+    list-style-type: none;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+}
+header{
+    display: grid;
+    font-size: 30px;
+    background-color: black;
+    grid-area: header;
+
+}
+#imgCentral{
+    width: 300px;
+    height: 300px;
+}
+form{
+    width: 506px;
+}
+#comentario{
+    width: 500px;
+}
+.galeria{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.resital{
+    margin: 5px;
+    width: 400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px solid black;
+}
+main{
+    text-align: center;
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.noticias{
+    grid-area: noticias;
+
+}
+#mainMusica{
+    text-align: center;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+}
+.im{
+    width: 150px;
+    height: 150px;
+}
+.parrafo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.caja{
+    width: 250px;
+    height: 150px;
+    border: 2px black solid;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "main   main   noticias"
+    "main   main   noticias"
+    "footer footer footer";
+    grid-template-columns: 1fr 1fr 200px;
+    grid-template-rows: 150px auto auto 150px;
+}
+.entrevista{
+    margin-top: 10%;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+    font-size: 15px;
+    padding: 50px;
+}
+.contNoticias{
+    grid-area: noticias;
+}
+.noticias{
+    margin: 20px;
+    width: 200;
+    border: 1px black solid;
+}
+.fotoNoti{
+    width: 160px;
+    height: 160px;
+}
+table{
+    width: 700px;
+    background-color: darkgray;
+    border: 2px solid black;
+}
+ /* pie de pagina */
+footer{
+    grid-area: footer;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+
