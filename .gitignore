@@ -1,0 +1,3 @@
+
+# estoy es para que git ignore los archivos sencibles que no queremos subir a la nube, como contraseñas
+clave.txt
